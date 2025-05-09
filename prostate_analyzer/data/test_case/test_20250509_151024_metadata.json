@@ -1,0 +1,34 @@
+{
+  "case_id": "test_20250509_151024",
+  "patient_name": "test_patient",
+  "patient_id": "ID_test_20250509_151024",
+  "patient_age": 65,
+  "study_date": "20250509",
+  "institution": "Hospital Virtual",
+  "modality": "MR",
+  "sequences": [
+    "t2w",
+    "adc"
+  ],
+  "files": [
+    {
+      "path": "data/test_case/test_20250509_151024_t2w.nii.gz",
+      "sequence_type": "t2w"
+    },
+    {
+      "path": "data/test_case/test_20250509_151024_adc.nii.gz",
+      "sequence_type": "adc"
+    }
+  ],
+  "synthetic": true,
+  "lesions": [
+    {
+      "id": 1,
+      "location": "Zona perif\u00e9rica derecha",
+      "volume_mm3": 450.5,
+      "max_diameter_mm": 12.3,
+      "probability": 0.85,
+      "severity": "Alta"
+    }
+  ]
+}
